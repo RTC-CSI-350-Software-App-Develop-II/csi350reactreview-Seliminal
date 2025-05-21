@@ -3,13 +3,10 @@ function Restaurant(props) {
   console.log(props)
   return (
     <div className="restaurant">
-      <h2>{props.restaurant.name}</h2>
-      <ul>
-        <li>{props.restaurant.address}</li>
-        <li>{props.restaurant.phone}</li>
-        <li>{props.restaurant.cuisine}</li>
-        <li>{props.restaurant.rating}</li>
-      </ul>
+      <h1>{props.restaurant.name}</h1>
+      <h3>{props.restaurant.address}</h3>
+      <h3>{props.restaurant.phone}</h3>
+      <h3>{props.restaurant.cuisine}</h3>
     </div>
   );
 }
